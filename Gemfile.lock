@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    tablecheck_api (1.0.0)
+      httparty (~> 0.16, < 0.21.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.20.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    logger (1.7.0)
+    mime-types (3.7.0)
+      logger
+      mime-types-data (~> 3.2025, >= 3.2025.0507)
+    mime-types-data (3.2026.0414)
+    multi_xml (0.6.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  tablecheck_api!
+
+BUNDLED WITH
+   2.3.26
