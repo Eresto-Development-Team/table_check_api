@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-TableCheck::Api.configure do |config|
+TableCheckApi.configure do |config|
   # ==> TableCheck API Base URL
   # Base URL exclude component and version segments (eg: api.tablecheck.com/api)
   # config.base_url = 'https://api.tablecheck.com/api'
