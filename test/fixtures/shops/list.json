@@ -1,1 +1,50 @@
-{}
+{
+  "shops": [
+    {
+      "id": "ae5355ca1fd337ed5d6893e2",
+      "franchise_id": "ae53d5d6893e255ca1fd337e",
+      "address": {
+        "street": "2-14-5 Ginza",
+        "street2": "Dai-27 Chuo Bldg 4F",
+        "city": "Chuo-ku",
+        "region": "Tokyo",
+        "postal_code": "104-0061",
+        "country": "JP",
+        "tag": "home"
+      },
+      "alt_address": {
+        "street": "2-14-5 Ginza",
+        "street2": "Dai-27 Chuo Bldg 4F",
+        "city": "Chuo-ku",
+        "region": "Tokyo",
+        "postal_code": "104-0061",
+        "country": "JP",
+        "tag": "home"
+      },
+      "country": "JP",
+      "currency": "JPY",
+      "franchise_name_translations": {
+        "en": "Hotel Kyoto",
+        "fr": "Hôtel Kyoto",
+        "ja": "ホテル京都"
+      },
+      "latitude": 35.0116,
+      "location_name_translations": {
+        "en": "Hotel Kyoto",
+        "fr": "Hôtel Kyoto",
+        "ja": "ホテル京都"
+      },
+      "longitude": 135.768,
+      "name_translations": {
+        "en": "Paris Cafe",
+        "fr": "Café de Paris",
+        "ja": "カフェデパリ"
+      },
+      "phone": "+81355650112",
+      "slug": "my-shop-slug",
+      "time_zone": "Asia/Tokyo",
+      "created_at": "2020-01-29T19:12:34Z",
+      "updated_at": "2020-01-29T19:12:34Z"
+    }
+  ]
+}

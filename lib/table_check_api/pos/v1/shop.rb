@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative "base_response"
+
 module TableCheckApi
   module Pos
     module V1
@@ -13,7 +15,14 @@ module TableCheckApi
 
         # GET /shops — List accessible restaurant/venue operations.
         def self.list(headers: {})
-          TableCheckApi::Client.get(RESOURCE_PATH, headers: headers)
+          response = TableCheckApi::Client.get(RESOURCE_PATH, headers: headers)
+          ListResponse.from_response(response)
+        end
+
+        class ListResponse < BaseResponse
+          def shops
+            body['shops'] || []
+          end
         end
       end
     end

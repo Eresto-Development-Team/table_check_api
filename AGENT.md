@@ -49,19 +49,19 @@ The wrapper covers the following endpoints from the POS v1 specification:
 
 ### Shops Resource
 
-* `GET /shops` ➡ `TableCheckApi::Pos::V1::Shop.list` — List accessible restaurant/venue operations.
+* `GET /shops` ➡ `TableCheckApi::Pos::V1::Shop.list` — List accessible restaurant/venue operations. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/shops/listShops)
 
 ### Tables Resource
 
-* `GET /shops/:shop_id/tables` ➡ `TableCheckApi::Pos::V1::Table.list(shop_id)` — List all tables for a specific shop.
-* `GET /shops/:shop_id/table_status/show` ➡ `TableCheckApi::Pos::V1::Table.status(shop_id)` — Show the status of requested table for a specific shop.
+* `GET /shops/:shop_id/tables` ➡ `TableCheckApi::Pos::V1::Table.list(shop_id)` — List all tables for a specific shop. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/tables/listTables)
+* `POST /shops/:shop_id/table_status/show` ➡ `TableCheckApi::Pos::V1::Table.status(shop_id)` — Show the status of requested table for a specific shop. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/table_status/showTableStatus)
 
 ### POS Journals Resource
 
-* `POST /shops/:shop_id/pos_journals` ➡ `TableCheckApi::Pos::V1::PosJournals.create(shop_id, payload)` — Post modern billing payload data from the local register matrix.
-* `PUT /shops/:shop_id/pos_journals/:id` ➡ `TableCheckApi::Pos::V1::PosJournals.update(shop_id, id, payload)` — Perform correction modifications or structural state transformations.
-* `DELETE /shops/:shop_id/pos_journals/:id` ➡ `TableCheckApi::Pos::V1::PosJournals.delete(shop_id, id)` — Structural transaction rollback.
-* `POST /shops/:shop_id/pos_journals/void` ➡ `TableCheckApi::Pos::V1::PosJournals.void(shop_id, payload)` — Explicit system-wide processing flags to invalidate existing ledger logs.
+* `POST /shops/:shop_id/pos_journals` ➡ `TableCheckApi::Pos::V1::PosJournals.create(shop_id, payload)` — Post modern billing payload data from the local register matrix. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/pos_journals/createPosJournal)
+* `PUT /shops/:shop_id/pos_journals/:id` ➡ `TableCheckApi::Pos::V1::PosJournals.update(shop_id, id, payload)` — Perform correction modifications or structural state transformations. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/pos_journals/updatePosJournal)
+* `DELETE /shops/:shop_id/pos_journals/:id` ➡ `TableCheckApi::Pos::V1::PosJournals.delete(shop_id, id)` — Structural transaction rollback. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/pos_journals/deletePosJournal)
+* `POST /shops/:shop_id/pos_journals/void` ➡ `TableCheckApi::Pos::V1::PosJournals.void(shop_id, payload)` — Explicit system-wide processing flags to invalidate existing ledger logs. [API Reference](https://api.tablecheck.com/api/pos/v1/docs#/pos_journals/voidPosJournal)
 
 ---
 

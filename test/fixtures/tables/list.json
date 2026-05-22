@@ -1,1 +1,21 @@
-{}
+{
+  "tables": [
+    {
+      "id": "ea1fd65d5357ed3ac5893e43",
+      "floor_plan_id": "5357ed5dc5893e433aea1fd6",
+      "section_id": "5357ed5dc5893e433aea1fd6",
+      "shop_id": "ae5355ca1fd337ed5d6893e2",
+      "floor_plan_name": "Holiday Layout",
+      "is_smoking": true,
+      "max_pax": 4,
+      "min_pax": 4,
+      "name": "string",
+      "position": 0,
+      "seat_type": "open",
+      "section_name": "F1 Inside",
+      "section_position": 0,
+      "created_at": "2020-01-29T19:12:34Z",
+      "updated_at": "2020-01-29T19:12:34Z"
+    }
+  ]
+}

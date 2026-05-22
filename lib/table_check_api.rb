@@ -4,6 +4,7 @@ require 'httparty'
 
 require_relative "table_check_api/version"
 require_relative "table_check_api/configuration"
+require_relative "table_check_api/pos/v1/base_response"
 require_relative "table_check_api/pos/v1/shop"
 require_relative "table_check_api/pos/v1/table"
 require_relative "table_check_api/pos/v1/pos_journals"
@@ -36,6 +37,21 @@ module TableCheckApi
       HTTParty.post(
         "#{TableCheckApi.base_url}#{path}",
         body: params.to_json,
+        headers: default_headers.dup.merge(headers)
+      )
+    end
+
+    def self.put(path, params: {}, headers: {})
+      HTTParty.put(
+        "#{TableCheckApi.base_url}#{path}",
+        body: params.to_json,
+        headers: default_headers.dup.merge(headers)
+      )
+    end
+
+    def self.delete(path, headers: {})
+      HTTParty.delete(
+        "#{TableCheckApi.base_url}#{path}",
         headers: default_headers.dup.merge(headers)
       )
     end

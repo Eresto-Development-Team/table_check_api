@@ -1,1 +1,113 @@
-{}
+{
+  "pos_journal": {
+    "id": "ae5355ca1fd337ed5d6893e2",
+    "batch_date": "2020-01-01",
+    "change_amt": "string",
+    "country": "JP",
+    "coupon_amt": "string",
+    "currency": "JPY",
+    "customer_name": "string",
+    "discount_amt": "string",
+    "membership_code": "string",
+    "order_at": "2020-01-29T19:12:34Z",
+    "original_receipt_num": "string",
+    "pax": 0,
+    "payment_at": "2020-01-29T19:12:34Z",
+    "pos_discounts": [
+      {
+        "id": "string",
+        "amt": "string",
+        "name": "Summer Sale 20%",
+        "order_at": "2020-01-29T19:12:34Z",
+        "ref": "string"
+      }
+    ],
+    "pos_orders": [
+      {
+        "id": "string",
+        "menu_category_name": "Appetizer",
+        "menu_category_ref": "ABC123DEF",
+        "menu_item_name": "Chicken Soup",
+        "menu_item_ref": "ABC123DEF",
+        "order_at": "2020-01-29T19:12:34Z",
+        "qty": 0,
+        "ref": "string",
+        "sku": "string",
+        "unit_price": "string"
+      }
+    ],
+    "pos_payments": [
+      {
+        "id": "string",
+        "amt": "string",
+        "brand": "visa",
+        "issuer": "citibank",
+        "payment_at": "2020-01-29T19:12:34Z",
+        "ref": "string",
+        "tender": "credit_card"
+      }
+    ],
+    "receipt_num": "string",
+    "revenue_center": "MyRestaurant/1",
+    "room_name": "string",
+    "service_fee_amt": "string",
+    "service_fee_rate": "0.15",
+    "settle_amt": "string",
+    "site_name": "MyHotel",
+    "staff_name": "string",
+    "staff_ref": "string",
+    "subtotal_amt": "string",
+    "system_api_provider": "acme",
+    "system_maker": "oracle",
+    "system_model": "micros9700",
+    "system_version": "12.1.0",
+    "table_names": [
+      "string"
+    ],
+    "tax_amt": "string",
+    "tax_included_amt": "string",
+    "tax_rate": "0.08",
+    "terminal_name": "string",
+    "total_amt": "string",
+    "franchise_id": "d337ed5d6ae5355ca1f893e2",
+    "ref": "string",
+    "reservation_id": "55ca1fd33ae537ede25d6893",
+    "shop_id": "37ed555ca1fd3d6893e2ae53",
+    "created_at": "2020-01-29T19:12:34Z",
+    "updated_at": "2020-01-29T19:12:34Z"
+  },
+  "reservations": [
+    {
+      "id": "ae5355ca1fd337ed5d6893e2",
+      "franchise_id": "ae5355ca1fd337ed5d6893e2",
+      "shop_id": "ae5355ca1fd337ed5d6893e2",
+      "cancel_reason": "Cancelled due to weather",
+      "cancel_reason_type": "mistake",
+      "channel": "instagram",
+      "code": "ABC123",
+      "customer_name": "string",
+      "duration": 7200,
+      "locale": "en",
+      "memo": "string",
+      "party_name": "string",
+      "pax": 3,
+      "points": 200,
+      "provider": "tablecheck",
+      "provider_ref": "ABC123DEF",
+      "purpose": "birthday",
+      "room_name": "string",
+      "seat_types": [
+        "open"
+      ],
+      "smoking": "none",
+      "source": "phone",
+      "start_at": "2020-01-29T19:15:00Z",
+      "status": "tentative",
+      "table_names": [
+        "string"
+      ],
+      "created_at": "2020-01-29T19:12:34Z",
+      "updated_at": "2020-01-29T19:12:34Z"
+    }
+  ]
+}

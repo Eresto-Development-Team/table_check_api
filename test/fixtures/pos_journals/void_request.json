@@ -1,1 +1,5 @@
-{}
+{
+  "receipt_num": "12345",
+  "void_reason": "customer_cancellation",
+  "voided_at": "2026-01-29T19:30:00Z"
+}

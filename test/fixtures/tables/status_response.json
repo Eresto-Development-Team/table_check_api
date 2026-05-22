@@ -1,0 +1,10 @@
+{
+  "table_status": {
+    "reservation_id": "1fd337ed5d6893e2ae5355ca",
+    "reservation_start_at": "2020-01-29T19:00:00Z",
+    "reservation_end_at": "2020-01-29T19:00:00Z",
+    "status": "vacant",
+    "table_id": "ae5355ca1fd337ed5d6893e2",
+    "table_name": "A1"
+  }
+}
